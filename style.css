@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	text-align: center;
+}
+.game-body {
+	margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+	text-align: center;
+}
+.player p,
+.computer p,
+.vs {
+	font-size: 30px;
+	font-weight: bold;
+}
+.vs { 
+	display: flex;
+	align-items: center;
+}
+.player .score,
+.computer .score {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.player img,
+.computer img{
+	width: 130px;
+}
+button {
+	margin-top: 40px;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100px;	
+}
+[data-id="random"] {
+	display: block;
+    margin: 15px auto 0 auto;
+}
+[data-id="play-again"] {
+	display: none;
+	margin: 40px auto 0 auto;
+}
+.winner {
+	display: none;
+	margin-top: 50px;
+    font-size: 30px;
+}
